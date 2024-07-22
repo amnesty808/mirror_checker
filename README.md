@@ -23,8 +23,16 @@
     ```
 3. Подставить свои данные:
     ```python
+    #Ссылка
     base_url = "https://www.mylink{number}.com"
-    if soup.find: #Тут 
+    #После find в скопках проверку на эллементы
+    if soup.find:
+    #Свои прокси
+    proxies = [
+    {"http": "proxy:proxy"},
+    {"http": "proxy:proxy"}
+    ]
+    
     ```
 4. Запустите скрипт:
     ```bash
